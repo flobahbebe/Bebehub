@@ -1,0 +1,146 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  font: bold 20 Tahoma;
+}
+h2, h3{
+  font: bold 16 Tahoma;
+  color: #FF8E2A;
+}
+header, section, footer, aside, nav, article{
+  display: block;
+}
+body{
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  background: -webkit-linear-gradient(90deg, lightgrey, black);
+}
+#big_wrapper{
+  max-width: 1200px;
+  margin: 5px 0px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+#top_header{
+  background: -webkit-linear-gradient(90deg, lightgrey, black);
+}
+#top_menu{
+  border: red;
+  color: black;
+}
+#top_menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 3px;
+  font: bold 16 Tahoma;
+}
+#new_div{
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#main_section{
+  -webkit-box-flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+#side_news{
+  width: 400px;
+  margin: 10px 20px;
+  padding: 25px;
+}
+#the_footer{
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid grey;
+}
+.popup-form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 550px;
+  justify-content: space-between;
+  background: -webkit-linear-gradient(90deg, lightgrey, black);
+  padding: 0px;
+  color: black;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-field{
+  padding: 1px;
+  width: 450px;
+  height: 45px;
+  margin-left: 10px;
+  border: 1px solid black;
+  outline: none;
+  background-color: rgb(230, 230, 230);
+}
+.input-field:hover, .input-field:focus{
+  background-color: rgb(220,210, 210);
+}
+.btn{
+  width: 70px;
+  font-size: 14px Tahoma;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 5px;
+  background-color: #222;
+  color: #fff;
+}
+.btn:hover, .btn:focus{
+  background-color: coral;
+}
+.close-btn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.close-btn{
+  background-color: coral;
+  color: #fff;
+}
+.hide{
+  display: none;
+}
+.popup-container{
+  width:100%;
+  height: 152%;
+  background-color: rgba(204, 204, 204, .8);
+  position: absolute;
+  top: 0px;
+}
+.popupform{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 550px;
+  justify-content: space-between;
+  background: -webkit-linear-gradient(90deg, lightgrey, black);
+  padding: 0px;
+  color: black;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.exit-btn{
+  background-color: coral;
+  color: #fff;
+}
+.exit-btn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
