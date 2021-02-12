@@ -52,6 +52,7 @@ body{
   width: 400px;
   margin: 10px 20px;
   padding: 25px;
+  -webkit-box-flex: 1;
 }
 #the_footer{
   text-align: center;
@@ -144,3 +145,4 @@ body{
   padding: 6px 8px;
   cursor: pointer;
 }
+
